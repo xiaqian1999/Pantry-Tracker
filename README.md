@@ -22,3 +22,7 @@ Next.js, [Material UI](https://mui.com/material-ui/) and [Firebase](https://cons
     - const firestore = getFirestore(app);
     - export {firestore}
   - Go back to firebase, and start a collection, things are order in colelctionand documentary
+
+## New Things Learn
+
+- async: it wouldn't block the code while fetching, because we don't want out web page to freeze when it try to fetch data
