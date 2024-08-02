@@ -53,6 +53,10 @@ export default function Home() {
     await updateInventory()
   }
 
+  // model function
+  const handleOpen = () => setOpen(true)
+  const handleClose = () => setOpen(close)
+
   //update when page load
   useEffect(() => {
     updateInventory()
